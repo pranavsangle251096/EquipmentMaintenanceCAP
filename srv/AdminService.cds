@@ -1,7 +1,7 @@
 using {equipmentmaintsystem.db.app as service} from '../db/DataModel';
 
 service AdminService {
-
+    @odata.draft.enabled
     entity Equipments      as projection on service.Equipments;
     entity Employees       as projection on service.Employees;
     entity Tasks           as projection on service.Tasks;

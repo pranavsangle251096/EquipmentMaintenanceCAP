@@ -55,6 +55,7 @@ entity Locations {
 entity EquipmentStatus {
     key equipmentCode : String(15);
         name          : String(50);
+        colorCode     : Integer;
 }
 
 entity TaskStatus {
